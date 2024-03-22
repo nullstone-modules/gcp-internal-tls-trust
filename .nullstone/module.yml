@@ -1,0 +1,15 @@
+org_name: nullstone
+name: gcp-internal-tls-trust
+friendly_name: Internal TLS Trust
+description: Injects custom certificate authority public key to enable trust for internal TLS certificates.
+category: capability
+subcategory: datastores
+provider_types:
+    - gcp
+platform: tls
+subplatform: internal
+type: ""
+appCategories:
+    - container
+    - serverless
+is_public: true
